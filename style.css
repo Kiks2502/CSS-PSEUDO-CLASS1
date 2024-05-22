@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, font-size 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #fc02da;
+}
+
+button:active {
+    font-size: 18px;
+    color: yellow;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus {
+    color: #f00707;
+}
+
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s, text-decoration 0.3s, font-weight 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0edd19;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+button {
+    transition: background-color 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+input[type="text"] {
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+    transition: color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease;
+}
